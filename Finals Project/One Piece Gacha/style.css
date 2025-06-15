@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(135deg, #000428, #004e92);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#spinner-track {
+  height: 200px;
+  width: 320px;
+  margin: 0 auto 2rem auto;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 12px;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spin-box {
+  text-align: center;
+}
+
+#fruit-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0.5rem;
+}
+
+#fruit-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Button */
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: gold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: orange;
+}
+
+/* Rarity Effects */
+.common {
+  box-shadow: 0 0 10px green;
+}
+.rare {
+  box-shadow: 0 0 15px dodgerblue;
+}
+.epic {
+  box-shadow: 0 0 20px violet;
+}
+.legendary {
+  box-shadow: 0 0 25px gold;
+}
+
+#result {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-style: italic;
+}
